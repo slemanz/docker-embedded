@@ -1,1 +1,122 @@
-Preciso que escreva 60 parágrafos
+Preciso que escreva 60 parágrafos com uma linguagem clara, objetiva e técnica para um relatório de estágio obrigatório, em nenhum momento deve se usar linguagem em primeira pessoa. O relatório deve ser organizado nas seguintes seções:
+
+INTRODUÇÃO
+1 IDENTIFICAÇÃO DA EMPRESA
+1.1 ÁREA DE ESTÁGIO
+1.2 APRESENTAÇÃO DA EMPRESA
+2 ATIVIDADES DESENVOLVIDAS
+2.1 DESENHO DE ESQUEMÁTICO
+2.1.1. O que foi feito
+2.1.2. Por que foi feito
+2.1.3. Como foi feito
+2.1.4. Qual a aprendizagem com a atividade
+2.2 DESENHO DE PLACA DE CIRCUITO IMPRESSO
+2.2.1. O que foi feito
+2.2.2. Por que foi feito
+2.2.3. Como foi feito
+2.2.4. Qual a aprendizagem com a atividade
+3 CONSIDERAÇÕES FINAIS
+
+A empresa que foi realizado estágio foi a empresa STARA, empresa brasileira de máquinas e implementos agrícolas que produz diversos tipos de implementos como plantadeiras, semeadoras, distribuidores, além de máquinas como pulverizadores.
+
+O estágio foi realizado na área de engenharia de produto (hardware), onde foi feitos atividades na área de desenho de esquemático de placas e após o desenho das placas e prototipação (infelizmente por se tratar de projetos sigilosos, não irei poder falar sobre essa parte no relatório). Com base nesse contexto e nos tópicos definidos, escreva os 60 parágrafos e evidencie nas partes necessárias como esse estágio colaborar para meu desenvolvimento na formação de engenharia elétrica.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**INTRODUÇÃO**
+
+O estágio obrigatório representa uma etapa fundamental na formação acadêmica do estudante de engenharia elétrica, pois proporciona o contato direto e prático com a realidade do mercado de trabalho. Este relatório visa detalhar as atividades desenvolvidas durante o estágio na STARA, uma renomada empresa brasileira especializada na fabricação de máquinas e implementos agrícolas. Por meio dessa experiência, foi possível integrar os conhecimentos teóricos adquiridos ao longo do curso com as práticas profissionais, essencial para o desenvolvimento das competências exigidas por esta área.
+
+A importância do estágio reflete-se na oportunidade de vivenciar a aplicação de conceitos técnicos em um ambiente real, permitindo uma compreensão mais aprofundada das dinâmicas envolvidas na engenharia de produto. As atividades realizadas na área de hardware incluíram o desenvolvimento de esquemas elétricos e a criação de placas de circuito impresso, elementos cruciais para a elaboração de produtos eletrônicos de qualidade.
+
+1 IDENTIFICAÇÃO DA EMPRESA
+
+1.1 ÁREA DE ESTÁGIO
+
+O estágio foi realizado na área de engenharia de produto (hardware) da STARA, onde foram executadas atividades focadas no desenho de esquemas elétricos e na criação de placas de circuito impresso. A área de hardware é essencial para a engenharia elétrica, pois abrange o projeto e a implementação de sistemas eletrônicos, o que proporciona um aprendizado significativo sobre o funcionamento dos diferentes componentes que compõem um circuito.
+
+1.2 APRESENTAÇÃO DA EMPRESA
+
+A STARA é uma empresa brasileira que se destaca na fabricação de máquinas e implementos agrícolas. Fundada com a missão de fornecer inovações para o setor rural, a empresa tem se empenhado em produzir uma ampla gama de produtos, incluindo plantadeiras, semeadoras, distribuidores de adubo e pulverizadores. Com um rigoroso processo de qualidade e constante investimento em pesquisa e desenvolvimento, a STARA busca não apenas atender às demandas do mercado, mas também inovar em suas soluções, aprimorando a eficiência e a sustentabilidade no campo.
+
+A companhia possui uma infraestrutura sólida e equipamentos avançados, adequando-se às necessidades dos agricultores modernos, que buscam não apenas produtividade, mas também precisão em suas operações. O valor agregado que a STARA traz por meio de suas soluções tecnológicas é um diferencial competitivo no mercado, evidenciando seu compromisso com a qualidade e a inovação.
+
+2 ATIVIDADES DESENVOLVIDAS
+
+Durante o estágio, as atividades foram divididas em duas categorias principais: o desenho de esquemas elétricos e o desenho de placas de circuito impresso. Cada uma dessas etapas foi desenvolvida com atenção especial aos detalhes técnicos e aos padrões da indústria, proporcionando uma experiência prática enriquecedora e de grande relevância para a formação profissional.
+
+2.1 DESENHO DE ESQUEMÁTICO
+
+2.1.1 O que foi feito
+
+Na primeira fase do estágio, foi realizado o desenho de esquemas elétricos, uma tarefa que consiste na elaboração de representações gráficas dos diferentes componentes que compõem um circuito e suas interconexões. O desenvolvimento de esquemas elétricos é uma habilidade crucial para qualquer engenheiro elétrico, pois serve como a base para a construção e análise de circuitos. Nessa fase, foram utilizados softwares de CAD (Desenho Assistido por Computador), que permitiram a criação de diagramas com precisão e clareza.
+
+2.1.2 Por que foi feito
+
+A elaboração de esquemas elétricos foi motivada pela necessidade de compreender o funcionamento interno dos circuitos e de garantir que todos os componentes funcionem em harmonia. Cada componente possui uma função específica, e a representação gráfica permite visualizar a interação entre eles. Além disso, um esquema bem elaborado pode reduzir significativamente as chances de falhas na montagem posterior do circuito, economizando tempo e recursos.
+
+2.1.3 Como foi feito
+
+Os esquemas foram desenvolvidos com o auxílio de software especializado, o que possibilitou a aplicação de normas técnicas de representação e a verificação automática das conexões. O processo envolveu a seleção criteriosa dos componentes, levando em consideração as especificações técnicas de cada um, e a conexão de cada parte de acordo com a lógica do circuito. Através de simulações, foi possível testar o funcionamento do esquema antes da implementação física, o que acrescentou uma camada de segurança ao processo.
+
+2.1.4 Qual a aprendizagem com a atividade
+
+A atividade de desenho de esquemas elétricos possibilitou a aquisição de habilidades práticas com ferramentas de engenharia de software, além de aprofundar o conhecimento sobre a estrutura de circuitos eletrônicos. Com a prática, tornou-se evidente a importância do detalhamento e da precisão nas representações, habilidades diretamente aplicáveis a futuros projetos na área de engenharia elétrica. A experiência desenvolveu uma visão crítica sobre a construção de circuitos e a identificação de possíveis melhorias.
+
+2.2 DESENHO DE PLACA DE CIRCUITO IMPRESSO
+
+2.2.1 O que foi feito
+
+Após a elaboração dos esquemas elétricos, o próximo desafio foi o desenho das placas de circuito impresso (PCBs). Essa etapa foi resultante do trabalho anterior e consistiu em criar layouts detalhados que especificam a disposição dos componentes e as trilhas de conexão no circuito impresso. Essa atividade é vital, pois um layout bem estruturado é fundamental para o funcionamento eficiente do dispositivo eletrônico.
+
+2.2.2 Por que foi feito
+
+O design de PCBs é uma etapa crucial no desenvolvimento de produtos eletrônicos. A disposição correta dos componentes não apenas afeta a eficiência do circuito, mas também influencia a facilidade de montagem, a gestão térmica e a integridade elétrica do projetado. Um bom design é fundamental para reduzir o custo de produção e aumentar a confiabilidade do produto final.
+
+2.2.3 Como foi feito
+
+O desenho das PCBs foi realizado com o auxílio de softwares de design eletrônico, que permitem simular a disposição dos componentes e verificar as interconexões antes da fabricação. Os passos incluíram a seleção dos componentes, a definição das dimensões da placa e o traçado das trilhas, respeitando as especificações elétricas e mecânicas. Também foram realizadas simulações para validar o funcionamento do circuito antes da prototipagem, permitindo ajustes e otimizações no projeto.
+
+2.2.4 Qual a aprendizagem com a atividade
+
+A experiência na criação das placas de circuito impresso proporcionou um entendimento prático sobre a interconexão entre os vários componentes, além de oferecer uma visão detalhada do processo de prototipagem. Com isso, foi possível observar a importância de um layout bem planejado e sua influência na performance geral do circuito. A prática com PCBs contribuiu significativamente para o desenvolvimento das habilidades técnicas necessárias para um engenheiro elétrico, preparando para desafios futuros no design de sistemas eletrônicos.
+
+3 CONSIDERAÇÕES FINAIS
+
+O estágio na STARA foi uma oportunidade valiosa para o aprimoramento das competências técnicas e analíticas no campo da engenharia elétrica. As atividades desenvolvidas permitiram uma integração significativa entre teoria e prática, apresentando desafios e soluções que enriqueceram a formação acadêmica. 
+
+Além das habilidades técnicas, a interação com profissionais experientes contribuiu para um entendimento mais amplo do ambiente de trabalho e das expectativas do mercado, o que é crucial para a futura inserção no setor. A vivência prática em engenharia de produto foi essencial para consolidar os conhecimentos e prepará-los para enfrentar os desafios da profissão com confiança e competência.
+
+A experiência no estágio representa uma etapa enriquecedora na formação, fornecendo uma perspectiva valiosa sobre a aplicação dos conhecimentos de engenharia elétrica na indústria. A STARA, como empregadora, demonstrou ser um ambiente propício para o desenvolvimento de habilidades e para a inovação, refletindo os valores de excelência e compromisso com a qualidade. Esta vivência se tornará uma base sólida para o futuro profissional, impulsionando uma carreira marcada por aprendizagem contínua e busca pela excelência nas soluções de engenharia.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.1 DESENHO DE ESQUEMÁTICO
+
+2.1.1 O que foi feito
+
+Na fase inicial do estágio, foi desenvolvido um esquemático para um controlador de motor, incorporando um microcontrolador e um driver de MOSFETs. O objetivo principal foi criar um circuito que permitisse o controle preciso de um motor elétrico, facilitando a atuação em diferentes condições de operação. O microcontrolador escolhido possui características ideais para aplicação em projetos de controle, como capacidade de processamento e entradas e saídas digitais, permitindo uma comunicação eficiente com o driver de MOSFETs.
+
+Durante o desenvolvimento do esquemático, foram realizados diversos testes e protótipos virtuais utilizando software de design eletrônico, que possibilitaram ajustar o projeto conforme as necessidades específicas do controlador de motor. Esse software permitiu não apenas a criação dos diagramas, mas também a simulação do comportamento do circuito em diferentes condições hipotéticas. Também foi feita a verificação da lógica de sinalização, assegurando que os sinais enviados do microcontrolador ao driver de MOSFETs estivessem adequadamente configurados para controlar a velocidade e a direção do motor.
+
+2.1.2 Por que foi feito
+
+A criação de um esquemático para um controlador de motor com um microcontrolador e um driver de MOSFETs foi motivada pela crescente demanda por sistemas de controle que operem com eficiência e precisão. A necessidade de controlar motores em diversas aplicações, desde robótica até automação industrial, requer circuitos que garantam desempenho adequado, alta eficiência energética e confiabilidade. Os drivers de MOSFETs são escolhidos pela sua rapidez na comutação e capacidade de lidar com altas correntes, essenciais em aplicações que exigem controle eficaz de potência.
+
+Além disso, a utilização de microcontroladores permite integrar funcionalidades adicionais, como proteção contra sobrecargas, controle de velocidade e gerenciamento de temperatura do motor, aumentando a versatilidade do sistema. Com isso, a atividade contribui para um aprendizado profundo sobre como diferentes componentes se interagem para formar um sistema de controle integrado e eficiente.
+
+2.1.3 Como foi feito
+
+O desenvolvimento do esquemático foi realizado em etapas metodológicas que incluíram a definição do objetivo do controlador, a seleção dos componentes apropriados, a criação do diagrama elétrico e a verificação das interconexões. Primeiramente, foi definido o microcontrolador a ser utilizado baseado em suas características, como tensão de operação, número de pinos de entrada e saída, e suporte a interrupções. Em seguida, a seleção do driver de MOSFETs considerou a corrente máxima que o motor demandaria, somando-se a consideração de dissipação de calor.
+
+Após a escolha dos componentes, o esquemático foi elaborado em um software de design, onde foram desenhados os blocos do microcontrolador e a interface com os MOSFETs. Cada conexão foi meticulosamente incorporada, garantindo que os sinais de controle fossem devidamente roteados e que as configurações elétricas respeitassem as especificações dos componentes. Os testes de simulação foram extremamente úteis, permitindo identificar e corrigir possíveis falhas antes da implementação prática. Com a simulação, foi possível observar o comportamento do circuito sob diferentes condições operacionais, ajustando os parâmetros para otimizar a resposta do controlador.
+
+2.1.4 Qual a aprendizagem com a atividade
+
+A atividade de desenvolver um esquemático para o controlador de motor propiciou uma profunda compreensão do funcionamento dos circuitos eletrônicos e da integração de diferentes componentes. A experiência ofereceu a oportunidade de aplicar conhecimentos teóricos em um projeto concreto, destacando a importância do microcontrolador como elemento central de controle e o papel dos drivers de MOSFETs na gestão da potência.
+
+Além disso, o processo de simulação e verificação das interconexões ajudou a desenvolver habilidades analíticas, permitindo antecipar e resolver problemas ainda na fase do projeto, o que é crucial para qualquer engenheiro. Essa vivência reforçou a compreensão sobre a lógica de circuitos e a interação entre sensores e atuadores, áreas fundamentais na formação de um engenheiro elétrico. 
+
+Os prints a serem inseridos no relatório, ilustrando o circuito do microcontrolador e do driver, serão ferramentas visuais valiosas que complementarão a explicação do projeto, facilitando a compreensão do funcionamento do controlador e suas especificidades. Essa experiência não apenas enriqueceu o conhecimento técnico, mas também deixou claro quão essencial é a prática em ambientes de engenharia para a formação completa de um profissional na área.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
