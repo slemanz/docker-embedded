@@ -91,3 +91,33 @@ docker build -t firmware-build:1.0 images/firmware-build
 and the folder COPY reads from. The Dockerfile is expected inside it.
 
 After, check it exists, running "docker images".
+
+## Build your firmware
+
+```bash
+cd examples/blink-firmware
+docker run --rm -v "$PWD":/work -w /work firmware-build:1.0 make
+ls build/
+```
+
+blink.elf, blink.bin, blink.map will be in your machine. Flash them with your
+own host tools.
+
+- "-w /work" sets the working directory so "make" finds the Makefile. In this
+case its unecessary because the image already sets /work as WORKDIR
+
+No shell, no "-it"; the container existed for the duration of one "make" and was
+destroyed. Run it again and it rebuilds, the object files are on your disk, not
+in the container.
+
+Also, we can build it interactively:
+
+```bash
+docker run --rm -it -v "$PWD":/work firmware-build:1.0 bash
+arm-none-eabi-gcc --version
+make clean && make
+arm-none-eabi-size build/blink.elf
+exit
+```
+
+## Understanding layers
