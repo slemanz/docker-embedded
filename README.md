@@ -46,3 +46,48 @@ exit
 Run the exact same command again and look for "iwashere". It is gone. The
 containeir was destroyed; the image never changed. **Containers are disposable,
 images are not.**
+
+## Give the container your files
+
+The previous container could not see your code. It can be fixed with `-v`:
+
+```bash
+cd examples/blink-firmware
+docker run --rm -it -v "$PWD":/work ubuntu:24.04 bash
+ls /work            # your firmware sources, inside the container
+exit
+```
+
+The "-v HOST_PATH:CONTAINER_PATH" is the bind mount. "/work" inside the
+container **is** "examples/blink-firmware", on your machine. Create a file in
+"/work" and it appears in your editor immediately. 
+
+## Write the Dockerfile
+
+Plain Ubuntu has no toolchain. Instead of installing one by hand every time,
+describe the environment in a file. Read
+[images/firmware-build/Dockerfile](images/firmware-build/Dockerfile).
+
+The instructions most used:
+
+| Instruction | What it does | When |
+|---|---|---|
+| FROM      | The starting filesystem                           | First line, always |
+| ENV       | Environment variable                              | Persists into containers |
+| RUN       | Execute a command, save the result as a layer     | build time |
+| WORKDIR   | Default directory (creates it)                    | build time |
+| CMD       | Default command if you give none                  | run time |
+| COPY      | Host file into the image                          | build time |
+| ARG       | Build-time variable                               | gone after build |
+
+Build it:
+
+```bash
+docker build -t firmware-build:1.0 images/firmware-build
+```
+
+- "-t name:tag" names the image
+- "images/firmware-build" is the **build context**, the folder sent to Docker,
+and the folder COPY reads from. The Dockerfile is expected inside it.
+
+After, check it exists, running "docker images".
