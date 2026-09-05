@@ -121,3 +121,39 @@ exit
 ```
 
 ## Understanding layers
+
+Every RUN, COPY and ADD creates a layer. Docker caches layers and reuses them
+until one instruction changes, after which **that layer and every layer below it
+rebuilds**.
+
+See with:
+
+```bash
+docker history firmware-build:1.0
+```
+
+Now if we add a package at the end of the RUN in the Dockerfile and rebuild. The
+whole apt-get layer re-runs, because we change it. But "FROM ubuntu:24.04" was
+cached, so it did not re-download Ubuntu.
+
+Beacause of this, it is important to follow two rules:
+
+1. **Put what rarely changes first.** Toolchain at the top, tweaks at the
+bottom. Reverse that will invalidate everything in each small change.
+
+2. **Chain related commands into one RUN.**
+
+```Dockerfile
+# bad
+RUN apt-get update
+RUN apt-get install -y make
+RUN rm -rf /var/lib/apt/lists/*
+
+# good
+RUN apt-get update && apt-get install -y --no-install-recommends make \
+ && rm -rf /var/lib/apt/lists/*
+```
+
+The "--no-install-recommends" and "rm -rf" saves a few hundred MB.
+
+## Build a second image on top of the first
